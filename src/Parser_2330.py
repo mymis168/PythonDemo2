@@ -21,7 +21,9 @@ def get_google_finance_price(ticker):
         price = soup.find("div", {"class": "fxKbKc"}).text
         name = soup.find("div", {"class": "zzDege"}).text
         
-        print(f"股票爬蟲 3.0版")
+        print(f"在家裡把專案的程式進行新功能 or refine 動作完畢後")
+        print(f"記得再透過git commit & push 更新上傳到 github")
+        print(f"股票爬蟲 4.0版")
         print(f"股票名稱: {name}")
         print(f"即時股價: {price}")
     else:
